@@ -5,7 +5,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 import { InputError, AccessError, } from './error';
-import { BACKEND_PORT } from '../../frontend/src/config';
+import { BACKEND_PORT } from './config';
 import swaggerDocument from '../swagger.json';
 import {
   save,
